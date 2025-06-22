@@ -1,6 +1,6 @@
 /* Variables y estilos base */
 :root {
-    --primary: #f1e9d8;  /* Fondo principal beige claro */
+    --primary: #f1e2d8;  /* Fondo principal beige claro */
     --secondary: #c9c7c1;  /* Fondo secundario beige grisáceo */
     --accent: #a09689;  /* Acento marrón claro */
     --text: #464441;  /* Texto principal oscuro */
@@ -102,9 +102,9 @@ header {
     width: 100%;
     z-index: 1000;
     padding: 20px 0;
-    background-color: rgba(245, 245, 240, 0.9);
+    background-color: rgba(235, 235, 227, 0.9);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(184, 166, 146, 0.24);
+    border-bottom: 1px solid rgba(184, 166, 146, 0.068);
     transition: var(--transition);
 }
 
@@ -238,7 +238,7 @@ nav a:hover::after {
     border-radius: var(--border-radius);
     padding: 30px;
     transition: var(--transition);
-    border: 1px solid rgba(184, 166, 146, 0.288);
+    border: 1px solid rgba(184, 166, 146, 0.164);
 }
 
 .skill-category:hover {
@@ -266,7 +266,7 @@ nav a:hover::after {
 }
 
 .skill-item {
-    background-color: rgba(184, 166, 146, 0.24);
+    background-color: rgba(184, 166, 146, 0.137);
     padding: 8px 16px;
     border-radius: 4px;
     font-size: 14px;
@@ -294,7 +294,7 @@ nav a:hover::after {
     transform: translateX(-50%);
     width: 2px;
     height: 100%;
-    background-color: rgba(184, 166, 146, 0.377);
+    background-color: rgba(184, 166, 146, 0.212);
 }
 
 .timeline-item {
@@ -316,7 +316,7 @@ nav a:hover::after {
     border-radius: var(--border-radius);
     padding: 30px;
     position: relative;
-    border: 1px solid rgba(184, 166, 146, 0.308);
+    border: 1px solid rgba(184, 166, 146, 0.158);
     transition: var(--transition);
     box-shadow: var(--box-shadow);
 }
@@ -341,7 +341,7 @@ nav a:hover::after {
 
 .timeline-content .date {
     display: inline-block;
-    background-color: rgba(184, 166, 146, 0.267);
+    background-color: rgba(184, 166, 146, 0.11);
     color: var(--accent);
     padding: 5px 15px;
     border-radius: 30px;
