@@ -3,12 +3,12 @@
     --primary: #f1e9d8;  /* Fondo principal beige claro */
     --secondary: #bdb1a9;  /* Fondo secundario beige grisáceo */
     --accent: #a09689;  /* Acento marrón claro */
-    --text: #333333;  /* Texto principal oscuro */
+    --text: #464441;  /* Texto principal oscuro */
     --text-light: #5a5a5a;  /* Texto secundario gris */
     --card-bg: #d6d1c0;  /* Fondo de tarjetas beige grisáceo */
     --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     --border-radius: 8px;
-    --box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+    --box-shadow: 0 10px 30px -15px rgba(29, 29, 29, 0.158);
 }
 
 * {
